@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>    
+    <!-- appel au fichier de style style.css qui est dans le dossier CSS -->
+    <link rel="stylesheet" href="../static/CSS/style.css">
+    <!-- Pour utilisé les ICON (favicon) -->
+    <link rel="icon" href="../static/photo/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">  
+    
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Le titre du site -->
+    <title>COVID-CARE | Accueil</title>
+  </head>
+
+  <!-- cette page principale est divisé en: nav header div footer  -->
+
+  <body>
+
+    <!--
+    -------------------------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------barre de navigation---------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <nav>
+      <div class="logo">
+        <!-- clique sur le logo USTHB -- le site officiel de USTHB -->
+        <a href="https://www.usthb.dz/"> <img src="../static/photo/usthb.png" alt="company logo" class="logo"> </a>
+      </div>
+
+      <div class="actuel">
+        <!-- revenir toujours vers la page index avec ce lien -->
+        <h1><a href="index.html">COVID CARE</a></h1>
+      </div>
+
+      <div class=onglets>
+        <!-- chaque lien est spécifique a une page et a une classe pour la partie CSS -->
+        <div class="gen"><a href="generalite.html">Géneralite</a></div>
+        <div class="sym"><a href="symptome.html">Symptomes & Evolution</a></div>
+        <div class="pre"><a href="presente.html">Presente-maladie</a></div>
+        <div class="prev"><a href="prevenir.html">Prévenir</a></div>
+        <form>
+          <!-- la barre de recherche -->
+          <input type="search" placeholder="Rechercher">
+        </form>
+      </div>
+    </nav>
+    <!--La fin de la barre de navigation-->
+
+
+
+    
+    <!--
+    -------------------------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------header---------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------- -->
+    <header>
+      <!-- le titre de la page -->
+      <h1>CORONAVIRUS COVID-19</h1>
+      <p>&emsp; La pandémie de COVID-19 a débuté fin 2019. C’est une infection respiratoire due à un coronavirus appelé SARS-CoV-2, probablement apparu en Chine à partir de chauve-souris infectées. Cette maladie, dont les symptômes évoquent ceux de la
+        grippe saisonnière, est plus sévère chez les personnes âgées et les personnes rendues vulnérables par certaines maladies chroniques ou des traitements. En moyenne, elle est sans symptôme chez environ 40 % des adultes infectés. Ce pourcentage
+        est une moyenne, il est plus élevé chez les enfants et moindre chez les personnes âgées.</p>
+        <!-- une photo illustrative -->
+      <img src="../static/photo/cor.jpg" alt="corona">
+      <h2>Contenu</h2>
+    </header>
+    <!-- Fin du header -->
+
+
+
+
+   <!--
+    -------------------------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------main------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------- -->  
+    <!-- Toutes les cartes -->
+    <!-- on a présenté tout le contenu de notre site dans ces cartes qui sont des liens vers nos pages avec la balise <a> -->
+    <!-- on a aussi associe des classes a ces cartes pour pouvoir les modifier dans CSS -->
+    <div class="panneaux">
+
+      <!-- la 1ere page "generalite" -->
+      <a href="generalite.html">
+        <div class="pan">  
+          <div class="right">
+            <img src="../static/photo/3.jpg" aria-hidden="true">
+          </div>
+
+          <div class="left">
+            <div class="pan-content">
+              <h2 class="title">
+                Géneralité
+              </h2>
+              <p class="para">
+                une présentation sur le SARS-CoV‑2 (Covid-19), son origine, sa manière de transmission, ...
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- la 2eme page "symptome" -->
+      <a href="symptome.html">
+        <div class="pan">
+          <div class="right">
+            <div class="pan-content">
+              <h2 class="title">
+                Symptomes & Evolution
+              </h2>
+              <p class="para">
+                Les symptomes de la maladie, ainsi que son évolution et ses séquelles ...
+              </p>
+            </div>
+          </div>
+
+          <div class="left">
+            <img src="../static/photo/4.png" aria-hidden="true">
+          </div>
+
+        </div>
+      </a>
+
+      <!-- la 3eme page "presente" -->
+      <a href="presente.html">
+        <div class="pan">
+
+          <div class="right">
+            <img src="../static/photo/pre.png" aria-hidden="true">
+          </div>
+
+          <div class="left">
+
+            <div class="pan-content">
+              <h2 class="title">
+                Présente-maladie
+              </h2>
+              <p class="para">
+                Comment la maladie se manifeste chez les enfants ainsi que chez les femmes ...
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </a>
+
+      <!-- la 3eme page "prevenir" -->
+      <a href="prevenir.html">
+        <div class="pan">
+
+          <div class="right">
+            <div class="pan-content">
+              <h2 class="title">
+                Prévenir
+              </h2>
+              <p class="para">
+                quelles sont les mesures actuelles de prévention de l’infection ...
+              </p>
+            </div>
+          </div>
+
+          <div class="left">
+            <img src="../static/photo/prévenir.png" aria-hidden="true">
+          </div>
+
+        </div>
+      </a>
+
+    </div>
+   <!-- Fin de toutes les cartes -->
+
+
+
+
+   <!--
+    -------------------------------------------------------------------------------------------------------------------------
+    ---------------------------------------------------Pied de page----------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------- -->  
+  
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Covid<span>Care</span></h3>  
+
+        <!-- dans notre footer il ya des liens aussi avec la balise <a> pour l'accees rapide aux autres pages -->
+        <p class="footer-links">
+          <a href="index.html">Accueil</a>
+          ·
+          <a href="generalite.html">Généralité</a>
+          ·
+          <a href="symptome.html">Symptomes</a>
+          ·
+          <a href="presente.html">Prsente-maladie</a>
+          ·
+          <a href="prevenir.html">Prévenir</a>
+        </p>
+
+
+        <!-- des liens vers les pages officielles de FaceBook, Twitter, Instagram avec ses icon -->
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+        </div>
+
+        <p class="footer-company-name">Covid Care © All rights reserved 2022</p>
+
+        <h4>Coded by [ Aymen Benkouiten. Sarah Ferkous. Ilyes Djerfaf ]</h4>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p>Contactez-Nous</p>
+        <!-- on a rajoute une formulair a remplir pour que le visiteur puis nos contacter -->
+        <form action="#" method="post">
+        <!-- l'action est # paeceque c'est juste un décor "il ne contient pas le BackEnd" -->
+          <input type="email" name="email" placeholder="Email">
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Envoyer <i class="fas fa-paper-plane"></i> </button>
+
+        </form>
+
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>
+<!-- Fin du pied de page -->
